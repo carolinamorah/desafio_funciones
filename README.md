@@ -12,7 +12,7 @@ Requerimientos
 quedar en un archivo nombrado `1 funcion.js` (1 Punto)
 
 
-        ``` 
+        ```javascript
             function example(a, b, c){
                 return a+b+c
             }
@@ -22,7 +22,7 @@ quedar en un archivo nombrado `1 funcion.js` (1 Punto)
 2. Transforma las siguiente función a una arrow function de una línea. Este ejercicio
 debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 
-        ``` 
+        ```javascript 
             suma = function(a, b){
                 return a + b
             }
@@ -32,7 +32,7 @@ debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 3. Se tiene como base el siguiente ejercicio que cambia el color de un elemento de
 HTML al hacerle click (Total: 3 Puntos)
 
-            ``` 
+            
                 <div id="ele1"> hello </div>
 
                 <script>
