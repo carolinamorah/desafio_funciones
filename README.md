@@ -23,9 +23,9 @@ quedar en un archivo nombrado `1 funcion.js` (1 Punto)
 debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 
 ```javascript 
-suma = function(a, b){
-  return a + b
-}
+    suma = function(a, b){
+      return a + b
+    }
 ```
 
 
