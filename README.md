@@ -33,18 +33,17 @@ debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 HTML al hacerle click (Total: 3 Puntos)
 
             
-                <div id="ele1"> hello </div>
+``` <div id="ele1"> hello </div>
 
-                <script>
-                  function pintar(){
-                  ele = document.getElementById("ele1")
-                  ele.style.backgroundColor = 'yellow'
-                  }
-                  ele = document.getElementById("ele1")
-                  ele.addEventListener("click", pintar);
-                </script>
-                
-               ```
+<script>
+  function pintar(){
+  ele = document.getElementById("ele1")
+  ele.style.backgroundColor = 'yellow'
+  }
+  ele = document.getElementById("ele1")
+  ele.addEventListener("click", pintar);
+</script>  
+```
         
 
 
