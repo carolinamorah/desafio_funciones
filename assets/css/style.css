@@ -1,0 +1,19 @@
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;  
+}
+
+.select div{
+    box-shadow: 1px 1px 10px #cec8c8;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.boxes div {
+    box-shadow: 1px 1px 10px #cec8c8;
+    border-radius: 5px; 
+}
+
