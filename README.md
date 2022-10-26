@@ -11,36 +11,34 @@ Requerimientos
 1. Transforma esta declaración de función a una función de expresión. El ejercicio debe
 quedar en un archivo nombrado `1 funcion.js` (1 Punto)
 
-~~~
-function example(a, b, c){
-return a+b+c
-}
-~~~
+
+        function example(a, b, c){
+           return a+b+c
+        }
+
 
 2. Transforma las siguiente función a una arrow function de una línea. Este ejercicio
 debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 
-~~~
-suma = function(a, b){
-return a + b
-}
-~~~
+        suma = function(a, b){
+           return a + b
+        }
+
 
 3. Se tiene como base el siguiente ejercicio que cambia el color de un elemento de
 HTML al hacerle click (Total: 3 Puntos)
 
-~~~
-<div id="ele1"> hello </div>
+        <div id="ele1"> hello </div>
 
-<script>
-  function pintar(){
-  ele = document.getElementById("ele1")
-  ele.style.backgroundColor = 'yellow'
-  }
-  ele = document.getElementById("ele1")
-  ele.addEventListener("click", pintar);
-</script>
-~~~
+        <script>
+          function pintar(){
+          ele = document.getElementById("ele1")
+          ele.style.backgroundColor = 'yellow'
+          }
+          ele = document.getElementById("ele1")
+          ele.addEventListener("click", pintar);
+        </script>
+
 
   3.1. Modifica la función para que reciba el elemento clickeado de forma de no
   tener que seleccionarlo nuevamente dentro de la función (1 Punto). Para
@@ -63,10 +61,11 @@ HTML al hacerle click (Total: 3 Puntos)
       único.
     b.  Crea un script que guarde dentro de una variable global un color
     dependiendo de la letra del teclado presionada. (2 Puntos).
+    
         - Al presionar la letra a un color a tu elección.
         - Al presionar la letra s un segundo color a tu elección.
         - Al presionar la letra d un tercer color al presionar la letra d.
         - Para guardar el color revisa el tip al final del enunciado.
         - Dentro del script agrega el evento que al hacerle click a uno de los divs, este
           cambie de color al color seleccionado. Utiliza addEventListener para agregar
-          el evento. (3 Puntos)
+          el evento. (3 Puntos).
